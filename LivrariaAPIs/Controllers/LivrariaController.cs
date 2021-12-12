@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Livraria.Controllers
 {
-    [Route("/api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class LivrariaController : ControllerBase
     {
